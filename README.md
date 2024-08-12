@@ -5,15 +5,15 @@
 推荐在 CloudflareSpeedTest 目录下执行脚本，方便后续 CloudflareSpeedTest 直接读取 IPlus.txt 测速。
 ### 一键执行脚本
 ``` bash
-curl -k -O https://raw.githubusercontent.com/cmliu/CloudFlareIPlus/main/CFIPlus.sh && chmod +x CFIPlus.sh && ./CFIPlus.sh
+curl -k -O https://raw.githubusercontent.com/zgchen83/CloudFlareIPlus/main/CFIPlus.sh && chmod +x CFIPlus.sh && ./CFIPlus.sh
 ```
 
 ### 代理加速执行
 ``` bash
-curl -k -O https://mirror.ghproxy.com/https://raw.githubusercontent.com/cmliu/CloudFlareIPlus/main/CFIPlus.sh && chmod +x CFIPlus.sh && ./CFIPlus.sh
+curl -k -O https://mirror.ghproxy.com/https://raw.githubusercontent.com/zgchen83/CloudFlareIPlus/main/CFIPlus.sh && chmod +x CFIPlus.sh && ./CFIPlus.sh
 ```
 
-执行完成后会将CloudFlareCDN IP 保存至 [IPlus.txt](https://raw.githubusercontent.com/cmliu/CloudFlareIPlus/main/IPlus.txt)（该文件是我第一次执行脚本产生的文件，如需最新IP文件请自行运行脚本），后还会将IP按[国家地区代码保存至ip文件夹](https://github.com/cmliu/cloudflare-better-ip)。
+执行完成后会将CloudFlareCDN IP 保存至 [IPlus.txt](https://raw.githubusercontent.com/zgchen83/CloudFlareIPlus/main/IPlus.txt)（该文件是我第一次执行脚本产生的文件，如需最新IP文件请自行运行脚本），后还会将IP按[国家地区代码保存至ip文件夹](https://github.com/zgchen83/cloudflare-better-ip)。
 
 ### 自定义端口验证执行
 HTTP：80，8080，8880，2052，2082，2086，2095；
